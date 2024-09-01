@@ -10,34 +10,20 @@ This document provides instructions for running the `Observation` phase, corresp
 
 To view the statistical results of the Disposition Effect (DE), simply run the `Oberservation_disposition_effect_calculation.ipynb` notebook. The output will be similar to the table below:
 
-```plaintext
-\begin{table}[h]
-\centering
-\caption{The observed results of agent behavior on disposition effect.}
-\label{observation}
-\resizebox{0.45\textwidth}{!}{%
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
-\hline
-Country & Years & Per. & C-DE & t-Sts & SE & p-Value & Return \\
-\hline
-USA  & 14-15 & 11.63\% & 0.324 & 8.428 & 0.038 & $<$0.001 & 0.03\% \\
-USA  & 16-17 & 12.79\% & 0.445 & 12.549 & 0.035 & $<$0.001 & 0.44\% \\
-USA  & 18-19 & 10.47\% & 0.465 & 5.434 & 0.086 & $<$0.001 & 0.18\% \\
-USA  & 20-21 & 20.93\% & 0.431 & 9.071 & 0.048 & $<$0.001 & 2.00\% \\
-USA  & 22-23 & 9.30\% & 0.493 & 6.717 & 0.073 & $<$0.001 & 0.16\% \\
-% USA  & 22-23 & weekly & 35.35\% & 0.164 & 7.644 & 0.021 & $<$0.001 & 2.03\% \\
-\hline
-China  & 14-15 & 32.47\% & 0.344 & 10.082 & 0.034 & $<$0.001 & 10.19\% \\
-China  & 16-17 & 33.77\% & 0.346 & 9.201 & 0.038 & $<$0.001 & 7.85\% \\
-China  & 18-19 & 27.27\% & 0.270 & 9.133 & 0.030 & $<$0.001 & 9.66\% \\
-China  & 20-21 & 49.35\% & 0.353 & 10.712 & 0.033 & $<$0.001 & 2.76\% \\
-% \hline
-China  & 22-23 & 37.66\% & 0.414 & 11.832 & 0.035 & $<$0.001 & 1.64\% \\
-% China  & 22-23 & weekly & 51.55\% & 0.205 & 6.804 & 0.030 & $<$0.001 & 1.81\% \\
-\hline
-\end{tabular}
-}
-\end{table}
+```markdown
+| Country | Years | Per.    | C-DE  | t-Sts  | SE    | p-Value | Return  |
+|---------|-------|---------|-------|--------|-------|---------|---------|
+| USA     | 14-15 | 11.63%  | 0.324 | 8.428  | 0.038 | <0.001  | 0.03%   |
+| USA     | 16-17 | 12.79%  | 0.445 | 12.549 | 0.035 | <0.001  | 0.44%   |
+| USA     | 18-19 | 10.47%  | 0.465 | 5.434  | 0.086 | <0.001  | 0.18%   |
+| USA     | 20-21 | 20.93%  | 0.431 | 9.071  | 0.048 | <0.001  | 2.00%   |
+| USA     | 22-23 | 9.30%   | 0.493 | 6.717  | 0.073 | <0.001  | 0.16%   |
+| China   | 14-15 | 32.47%  | 0.344 | 10.082 | 0.034 | <0.001  | 10.19%  |
+| China   | 16-17 | 33.77%  | 0.346 | 9.201  | 0.038 | <0.001  | 7.85%   |
+| China   | 18-19 | 27.27%  | 0.270 | 9.133  | 0.030 | <0.001  | 9.66%   |
+| China   | 20-21 | 49.35%  | 0.353 | 10.712 | 0.033 | <0.001  | 2.76%   |
+| China   | 22-23 | 37.66%  | 0.414 | 11.832 | 0.035 | <0.001  | 1.64%   |
+
 ```
 
 ## 2. Reproducing the Observation Experiments
@@ -90,4 +76,3 @@ python Main.py
 ## Conclusion
 
 Following these steps will allow you to either view the statistical results related to the disposition effect in the `Observation` phase. Make sure to set up the environment correctly and use the provided API keys and paths for a successful execution.
-```
