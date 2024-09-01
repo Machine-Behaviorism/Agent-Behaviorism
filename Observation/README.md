@@ -1,5 +1,4 @@
 
-```markdown
 # Observation Phase Documentation
 
 ## Overview
