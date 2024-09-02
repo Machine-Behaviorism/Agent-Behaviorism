@@ -1,10 +1,9 @@
 # coding=utf-8
 import os
 
-#需要手动打开
-# OPENAI_ORGANIZATION = "xxxx"
-# API_KEY = "xxx"
-# COMPLETION_MODEL =  "gpt-3.5-turbo-16k"
+OPENAI_ORGANIZATION = "xxxx"
+API_KEY = "xxx"
+COMPLETION_MODEL =  "gpt-3.5-turbo-16k"
 # COMPLETION_MODEL = "gpt-4" 
 # COMPLETION_MODEL ="gpt-4-1106-preview"
 # COMPLETION_MODEL ="gpt-4-0613"
