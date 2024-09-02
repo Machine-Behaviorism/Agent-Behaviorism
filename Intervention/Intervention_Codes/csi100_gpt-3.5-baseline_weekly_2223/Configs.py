@@ -1,8 +1,8 @@
 # coding=utf-8
 import os
 
-OPENAI_ORGANIZATION = "org-TfIH2DbMdVVsDTC4wawLqvcv"
-API_KEY = "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"
+OPENAI_ORGANIZATION = "org-xxxx"
+API_KEY = "sk-xxx"
 COMPLETION_MODEL =  "gpt-3.5-turbo-16k"
 # COMPLETION_MODEL = "gpt-4" 
 # COMPLETION_MODEL ="gpt-4-1106-preview"
