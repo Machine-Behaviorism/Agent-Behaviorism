@@ -4,7 +4,8 @@ This repository contains the source code and results for the PNAS submission tit
 
 ## Table of Contents
 - [Phase 1: Observation](#phase-1-observation)
-- [Phase 2: Intervention](#phase-2-intervention)
+- [Phase 2: Explanation & Postulation](#phase-2-explanation--postulation)
+- [Phase 3: Intervention](#phase-3-intervention)
 - [Dataset](#dataset)
 - [Repository Structure](#repository-structure)
 
@@ -23,10 +24,28 @@ The first phase, **Observation**, involves collecting and analyzing data to obse
 ### Correspondence
 Each experiment's code in `Observation_Codes` directly corresponds to its results in `Observation_Results`. For example, the script used for analyzing the dataset `csi100_gpt-3.5-baseline_monthly_2014-2015` will have its results stored in a similarly named file or directory within `Observation_Results`.
 
-## Phase 2: Intervention
+## Phase 2: Explanation & Postulation
 
 ### Overview
-In the **Intervention** phase, we implement strategies and test the impact of interventions based on the observations made in Phase 1. The goal is to see how altering certain variables affects the behavior observed in Phase 1.
+The **Explanation & Postulation** phase builds on the observations to hypothesize underlying mechanisms and formulate postulates about the behavior of large language models in decision-making environments.
+
+### Folder Structure
+- **Explanation_Postulation.png**: This image provides a visual summary of the factors potentially influencing LLM agent behavior.
+
+### Visualization
+Below is the image summarizing the factors influencing LLM agent behavior:
+
+![Explanation & Postulation](./Explanation_Postulation/Explanation_Postulation.png)
+
+### Description
+This phase synthesizes findings from the observation phase to build a conceptual framework that explains the observed behaviors. It serves as a theoretical bridge to the intervention phase, where these postulates are tested.
+
+![Factors potentially influencing LLM agent behavior](./Explanation_Postulation/Explanation_Postulation.png)
+
+## Phase 3: Intervention
+
+### Overview
+In the **Intervention** phase, we implement strategies and test the impact of interventions based on the observations and postulations made in the earlier phases. The goal is to see how altering certain variables affects the behavior observed in Phase 1.
 
 ### Folder Structure
 - **Intervention_Codes**: Contains all the scripts and configurations used to implement and run the interventions.
@@ -37,7 +56,7 @@ In the **Intervention** phase, we implement strategies and test the impact of in
 - **Intervention_disposition_effect_visualization.py**: A script used for visualizing the results of the intervention phase, creating charts and graphs for better understanding the outcomes.
 
 ### Correspondence
-Similar to Phase 1, the code in `Intervention_Codes` has a direct correspondence with the results in `Intervention_Results`. 
+Similar to Phase 1, the code in `Intervention_Codes` has a direct correspondence with the results in `Intervention_Results`.
 
 ## Dataset
 
@@ -56,6 +75,8 @@ These datasets are utilized in both the observation and intervention phases to s
 - Dataset/
   - csi_100_stocks/
   - sp_100_stocks/
+- Explanation_Postulation/
+  - Explanation_Postulation.png
 - Intervention/
   - Intervention_Codes/
     - Intervention_disposition_effect_visualization.py
