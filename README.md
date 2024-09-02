@@ -7,8 +7,6 @@ This repository contains the source code and results for the PNAS submission tit
 - [Phase 2: Intervention](#phase-2-intervention)
 - [Dataset](#dataset)
 - [Repository Structure](#repository-structure)
-- [Usage](#usage)
-- [Contact](#contact)
 
 ## Phase 1: Observation
 
@@ -35,11 +33,11 @@ In the **Intervention** phase, we implement strategies and test the impact of in
 - **Intervention_Results**: Contains the output files and results from the intervention experiments.
 
 ### Additional Tools
-- **Intervention_disposition_effect_calculation.ipynb**: This Jupyter notebook is used to calculate the experimental results for the Intervention phase. It processes the data and generates the key metrics for analysis.
+- **Intervention_disposition_effect_calculation.ipynb**: This Jupyter notebook is used to calculate the experimental results for the Intervention phase. It generates the key metrics for analysis.
 - **Intervention_disposition_effect_visualization.py**: A script used for visualizing the results of the intervention phase, creating charts and graphs for better understanding the outcomes.
 
 ### Correspondence
-Similar to Phase 1, the code in `Intervention_Codes` has a direct correspondence with the results in `Intervention_Results`. For instance, the script for `csi100_gpt-3.5-baseline_weekly_2223` has its results stored in a similarly named directory within `Intervention_Results`.
+Similar to Phase 1, the code in `Intervention_Codes` has a direct correspondence with the results in `Intervention_Results`. 
 
 ## Dataset
 
