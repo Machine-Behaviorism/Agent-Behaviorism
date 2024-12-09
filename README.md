@@ -1,6 +1,6 @@
 # Machine Behaviorism
 
-This repository contains the source code and results for the PNAS submission titled **"Machine Behaviorism: Exploring the Behavioral Dynamics of Large Language Models in Decision-Making"**. The project is organized into different phases, with corresponding code and results that can be easily cross-referenced.
+This repository contains the source code and results for the submission titled **"Machine Behaviorism: Exploring the Behavioral Dynamics of Large Language Models in Decision-Making"**. The project is organized into different phases, with corresponding code and results that can be easily cross-referenced.
 
 ## Table of Contents
 - [Phase 1: Observation](#phase-1-observation)
